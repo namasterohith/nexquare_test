@@ -204,6 +204,11 @@ select.form-control {
 
 .component-delete {
     float: right;
+    cursor: pointer;
+}
+
+.component-input:disabled {
+    background: white;
 }
 
 .component-input {
@@ -255,4 +260,49 @@ select.form-control {
 
 .no-comp-text {
     padding: 0px 80px 50px;
+}
+
+
+/*  MODAL */
+
+.modal.show {
+    display: block;
+    background-color: rgba(93, 98, 122, 0.7);
+}
+
+.modal.show .modal-dialog {
+    margin-top: 150px;
+    min-width: 50%;
+}
+
+.modal-content {
+    padding: 50px;
+    text-align: center;
+}
+
+.modal-body i {
+    color: lightgray;
+    font-size: 80px;
+}
+
+.modal-body .btns {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-body button {
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+}
+
+.modal-body button.btn-secondary {
+    background-color: #f3f3f9;
+    border-color: #f3f3f9;
+    color: grey;
+}
+
+.modal-body button.btn-primary {
+    background-color: #ff6677;
+    border-color: #ff6677;
 }
