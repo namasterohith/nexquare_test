@@ -1,0 +1,15 @@
+ As part of the development task, you would need to build these for Desktop view. Please use Angular 4 or above as the frontend framework. You would also need to build the necessary html and css to achieve this design.
+
+ 
+
+Instructions:
+
+ 
+
+1. When you click on "Add Component" in Screen 1, a component gets added like it is shown in Screen 2. On each click on Add component, a new component gets added. See Screens 3 and 4 for further illustration. 
+
+2. The labels of the components follow the sequence "Component 1", "Component 2", "Component 3" and so on.
+
+3. Once you click "Delete Icon" on Screens 2, 3 or 4, Screen_5 pops up
+
+4. On clicking "Delete component" in Screen 5, the corresponding component is removed. The labels of the remaining components remain unaffected. For example, on Screen 4, on removing Component 4, the the labels of the remaining components would remain same as earlier i.e Component 1, Component 2, Component 3, Component 5, Component 6. This is illustrated in Screen_6.
